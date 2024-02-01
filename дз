@@ -1,0 +1,48 @@
+package org.example;
+
+public class HomeWorkApp {
+    public static void main(String[] args) {
+        printThreeWords();
+        checkSumSign();
+        printColor();
+        compareNumbers();
+    }
+
+    public static void printThreeWords() {
+        System.out.println("orange");
+        System.out.println("banana");
+        System.out.println("apple");
+    }
+
+    public static void checkSumSign() {
+        int a = 10;
+        int b = -100;
+        int sum = a + b;
+        if (sum>= 0) {
+            System.out.println("Положительная сумма");
+        } else {
+            System.out.println("Отрицательная сумма");
+        }
+    }
+
+    public static void printColor() {
+        int value = 50;
+        if (value <= 0) {
+            System.out.println("красный");
+        } else if (value <= 100) {
+            System.out.println("желтый");
+        } else {
+            System.out.println("зеленый");
+        }
+    }
+
+    public static void compareNumbers() {
+        int a = 50;
+        int b = 55;
+        if (a >= b) {
+            System.out.println("a >= b");
+        } else {
+            System.out.println("a < b");
+        }
+    }
+}
